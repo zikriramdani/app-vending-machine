@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Biskuit",
+    "price": 6000,
+    "stock": 6
+  },
+  {
+    "id": 2,
+    "name": "Chips",
+    "price": 8000,
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "name": "Oreo",
+    "price": 10000,
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "name": "Tango",
+    "price": 12000,
+    "stock": 12
+  },
+  {
+    "id": 5,
+    "name": "Cokelat",
+    "price": 15000,
+    "stock": 15
+  }
+]

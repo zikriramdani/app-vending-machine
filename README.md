@@ -1,10 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+First, run website:
 
 ```bash
+npm install
+# lanjut
 npm run dev
 # or
 yarn dev
@@ -12,23 +12,51 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tentang Website
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Website ini dibuat menggunakan Framework Next JS dengan tambahan package-package lain, seperti :
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+ 1. bootstrap 5,
+ 4. Menampilkan DATA JSON dari file JSON,
+ 5. Redux,
+ 6. Hooks
+```
 
-## Learn More
+Redux
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+Redux adalah sebuah aplikasi state management.
+State management adalah cara untuk memfasilitasi komunikasi dan berbagai data lintas komponen.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Redux memiliki 3 komponen utama yaitu Action, Reducer, dan Store :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Action
+   Action merupakan Suatu event,
+   di mana ia adalah satu-satunya cara Anda dapat mengirim data dari aplikasi Anda ke Redux Store.
+2. Reducer
+   Reducer merupakan Fungsi murni yang mengambil status aplikasi saat ini.
+   Reducer juga berfungsi untuk melakukan tindakan,dan mengembalikan status baru (new state).
+3. Store
+   Store berfungsi untuk menyimpan status aplikasi.
 
-## Deploy on Vercel
+Keuntungan Menggunakan Redux
+Seperti yang sudah dijelaskan sebelumnya, Redux berkolaborasi dengan React,
+dengan menggunakan Redux React, Anda tidak akan membutuhkan waktu lama untuk meningkatkan state.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Hal ini memudahkan Anda untuk untuk melacak action atau tindakan mana yang menyebabkan perubahan.
+Komponen-komponen yang ada pada Redux,
+tidak perlu menyediakan status atau metode apa pun bagi komponen turunannya
+untuk berbagi data di antara mereka sendiri.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Semuanya ditangani oleh Redux.
+Hal ini pun sangat menyederhanakan aplikasi dan membuatnya lebih mudah untuk dipelihara.
+
+```
+
+Hooks
+
+```bash
+Hooks merupakan penambahan baru pada React 16.8.
+Hooks memungkinkan Anda menggunakan state dan fitur React lainnya tanpa membuat sebuah kelas.
+```
