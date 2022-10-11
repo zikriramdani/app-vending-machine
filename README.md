@@ -1,6 +1,6 @@
 # App Vending Machine
 
-Please visit <https://zikriramdani.github.io/app-vending-machine/>
+Please visit <https://zikriramdani.github.io/app-vending-machine>
 
 ## Getting Started
 
